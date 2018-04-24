@@ -13,4 +13,3 @@ class ExchangeRate(models.Model):
     currency = models.ForeignKey(Currency, on_delete=models.CASCADE)
     value = models.DecimalField(decimal_places=4, max_digits=12)
     date = models.DateField()
-

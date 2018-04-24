@@ -28,6 +28,8 @@ DEBUG = True
 ALLOWED_HOSTS = ['web']
 
 
+RSS_URL = 'https://www.ecb.europa.eu/rss/fxref-{}.html'
+
 # Application definition
 
 INSTALLED_APPS = [
